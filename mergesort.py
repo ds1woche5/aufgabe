@@ -33,6 +33,7 @@ def merge_sort(sort_list):   #Zu langer Variablen Name + Funktionen in Snake Cas
             i += 1
 
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+
 x = range(len(my_list))
 
 fig, (ax1, ax2) = plt.subplots(1, 2)
@@ -51,4 +52,5 @@ ax2.set_xlabel("Index")
 ax2.set_ylabel("Wert")
 ax2.set_title("Sortierte Liste")
 fig.tight_layout()
+
 plt.show()
